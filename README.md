@@ -9,7 +9,7 @@ print("hello world")
 
 
 #1.1.1 函数定义
-
+```
 '''
 def             :关键字 声明
 get_image_path  :函数名：定义函数的名字
@@ -20,7 +20,9 @@ def get_image(picture_path):
         img = cv2.imread("picture_path")
     return img
 '''
+```
 #1.1.2 函数参数
+```
 '''
 x               :位置参数,先占位，待输入再运算
 y               :默认参数，不输入y则用默认值，有输入则改变
@@ -58,7 +60,9 @@ def person(name,age,**kk):
 name: yyo age: 12 other: {'city': 'CD'}
 
 '''
+```
 #1.2.1 python缩进
+```
 '''
 C语言中使用{ }来区分代码块。
 Pyhon 使用缩进来区分。
@@ -69,3 +73,6 @@ def SayHello():
 >>>SayHello()
 say: Hello world !
 '''
+```
+
+
