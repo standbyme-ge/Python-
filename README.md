@@ -74,5 +74,30 @@ def SayHello():
 say: Hello world !
 '''
 ```
+#1.2.1 python缩进
+'''
+C语言中使用{ }来区分代码块。
+Pyhon 使用缩进来区分。
+
+def SayHello():
+    print("say: Hello world !")
+    
+>>>SayHello()
+say: Hello world !
+'''
+#2 矩阵库-NumPy
+```
+''' NumPy 是python的扩展库，支持数组与矩阵运算，数学函数库'''
+```
+#2.1 ndarray 对象
+```
+'''在NumPy中使用ndarray表示数组'''
+```
+#2.2 创建数组
+```
+import numpy as np          #导入numpy这个数据库包
+a0 = np.array([1,2,3])      #采用列表形式
+a1 = np.array((1,2,3))      #采用元组形式
+```
 
 
